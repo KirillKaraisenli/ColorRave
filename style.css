@@ -1,0 +1,116 @@
+ /* контейнер */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    outline: 1px solid rgb(251, 0, 255);
+  }
+
+  /* хедр */
+
+.header {
+    background: rgb(1, 45, 99);
+
+    
+  }
+  
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    height: 60px;
+    margin-top: 14px;
+margin-bottom: 16px;
+    
+}
+
+.header__nav {
+    display: flex;
+    gap: 29px;
+}
+
+.header__nav-list {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    gap: 29px;
+    margin-left: 152px;
+    
+
+}
+
+.header__nav-item {
+
+}
+
+.header__nav-link {
+width: 58px;
+color: rgb(199, 199, 199);
+font-family: Roboto;
+font-size: 24px;
+font-weight: 300;
+line-height: 28px;
+letter-spacing: 0%;
+}
+
+.header__nav-language {
+    display: flex;
+    gap: 5px;
+}
+
+.header__nav-language-list {
+    display: flex; /* Розташовує елементи мов в рядок */
+    gap: 5px;
+
+
+}
+
+.header__nav-language-item {
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.header__nav-language-link {
+    
+    color: rgb(199, 199, 199);
+    width: 81px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0%;
+}
+.header__nav-link:focus,
+.header__nav-link:hover{
+    color: rgb(255, 255, 255);
+font-family: Roboto;
+font-size: 24px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.header__nav-language-item:last-child .header__nav-language-link{      color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;  
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+  /* меин */
+
+  /* футер */
