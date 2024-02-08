@@ -113,4 +113,81 @@ text-align: left;
 
   /* меин */
 
+ /* хиро */
+ .hero { 
+    background-image: url("./img/hero.jpeg");
+    width: 1519px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    
+
+
+}
+
+.container .hero {
+}
+
+.hero__logo {
+    margin-top: 91px;
+    width: 160px;
+    height: auto;
+   
+
+}
+.hero__title {
+    color: rgb(255, 255, 255);
+font-family: Playfair Display;
+font-size: 144px;
+font-weight: 400;
+line-height: 192px;
+letter-spacing: 0%;
+text-align: left;
+}
+.hero__subtitle {
+    color: rgb(255, 255, 255);
+font-family: Playfair Display;
+font-size: 72px;
+font-weight: 400;
+line-height: 96px;
+letter-spacing: 0%;
+text-align: left;
+}
+.hero__paragraph {
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+
+}
+.hero__button {
+    margin-top: 41px;
+    display: flex;
+ justify-content: center;
+ align-items: center;
+    color: rgb(255, 255, 255);
+font-family: Roboto;
+font-size: 24px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0%;
+border-radius: 10px;
+width: 254px;
+height: 67px;
+background: rgb(142, 50, 198);
+}
+
+.hero__cr{
+    color: rgb(255, 255, 255);
+font-family: PT Serif;
+font-size: 48px;
+font-weight: 400;
+line-height: 64px;
+letter-spacing: 0%;
+text-align: left;
+margin-left: 25px;
+}
+
+
   /* футер */
