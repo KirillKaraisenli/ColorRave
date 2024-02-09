@@ -3,7 +3,7 @@
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-    outline: 1px solid rgb(251, 0, 255);
+    /* outline: 1px solid rgb(251, 0, 255); */
   }
 
   /* хедр */
@@ -62,7 +62,7 @@ letter-spacing: 0%;
 }
 
 .header__nav-language-list {
-    display: flex; /* Розташовує елементи мов в рядок */
+    display: flex;
     gap: 5px;
 
 
@@ -117,9 +117,10 @@ text-align: left;
  .hero { 
     background-image: url("./img/hero.jpeg");
     width: 1519px;
+    background-size: 100%;
     height: 800px;
     display: flex;
-    justify-content: center;
+
     
 
 
@@ -160,6 +161,7 @@ text-align: left;
     font-weight: 400;
     line-height: 21px;
 
+
 }
 .hero__button {
     margin-top: 41px;
@@ -188,6 +190,107 @@ letter-spacing: 0%;
 text-align: left;
 margin-left: 25px;
 }
+/* деливери */
 
+
+
+.delivery__section {background-image: url("./img/sparkling-fireworks.png");
+    background-size: 100%;
+    height: 606px;
+    display: flex;
+    justify-content: center;
+}
+    
+
+.delivery__list {
+    display: flex;
+    justify-content: space-between;
+    margin-top:  105px;
+    margin-bottom: 105px;
+    outline: 5px solid rgb(251, 0, 255);  
+    
+
+}
+
+
+
+.delivery__item::before {
+
+    padding-left: 200px;
+    padding-right: 200px;
+    height: 346px;
+    background-size: 240px 240x;
+    
+       
+}
+
+.delivery__item:nth-child(1)::before {
+    content:"";
+    display: block;
+      background-image: url("./img/stars.png");
+      background-repeat: no-repeat;
+      background-position: bottom;
+
+      
+}
+.delivery__item:nth-child(2)::before {
+    position: relative;
+    content:"";
+    display:block;
+      background-image: url("./img/paints.png");
+      background-repeat: no-repeat;
+      background-position: center;
+   
+
+      
+
+}
+.delivery__item:nth-child(3)::before {
+    content:"";
+    display: block;
+      background-image: url("./img/truck.png");
+      background-repeat: no-repeat;
+      background-position: bottom;
+
+}
+
+.delivery__item:nth-child(2) .delivery__text{
+    color: rgb(255, 255, 255);
+    font-family: Playfair Display;
+    font-weight: 400;
+    font-size: 36px;
+    Letter-spacing: 1%;
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+    margin-top: -40px;
+   
+}
+
+
+.delivery__item:nth-child(1) .delivery__text{ 
+    color: rgb(255, 255, 255);
+    font-family: Playfair Display;
+    font-weight: 400;
+    font-size: 36px;
+    Letter-spacing: 1%;
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+    margin-top: -325px;
+
+}
+
+.delivery__item:nth-child(3) .delivery__text{ 
+    color: rgb(255, 255, 255);
+    font-family: Playfair Display;
+    font-weight: 400;
+    font-size: 36px;
+    Letter-spacing: 1%;
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+    margin-top: -325px;
+}
 
   /* футер */
