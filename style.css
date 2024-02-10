@@ -7,7 +7,6 @@
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-    /* outline: 1px solid rgb(251, 0, 255); */
   }
 
   /* хедр */
@@ -204,7 +203,7 @@ margin-left: 25px;
        width: 0;
        height: 346px;
   margin: 25px;
-  padding: 1px;
+  outline: solid 1px white;
   right: 934.5px;
 }
 .delivery-bar-2 {
@@ -215,7 +214,7 @@ margin-left: 25px;
        width: 0;
        height: 346px;
   margin: 25px;
-  padding: 1px;
+  outline: solid 1px white;
   left: 964.5px;
 }
 
@@ -266,6 +265,7 @@ margin-left: 25px;
       background-image: url("./img/paints.png");
       background-repeat: no-repeat;
       background-position: center;
+      top: -35px;
    
 
       
@@ -288,9 +288,9 @@ margin-left: 25px;
     Letter-spacing: 1%;
     text-align: center; 
     display: flex;
-    justify-content: center;
-    margin-top: -40px;
-   
+    justify-content: center; 
+    margin-top: -70px ;
+    margin-bottom: 35px;
 }
 
 
@@ -432,7 +432,130 @@ padding-top: 140px;
 left: -120px;
 }
 
+  /* ордер */
+
+  .order__section {
+    content: "";
+    background-image: url("./img/beach.png");
+    background-size: 100% 609px ;
+    display: flex;
+    justify-content: center;
+}
+
+.order__title {
+    display: flex;
+    justify-content: center;
+    margin-top: 21px ;
+    color: rgb(255, 255, 255);
+font-family: Playfair Display;
+font-size: 48px;
+font-weight: 400;
+line-height: 64px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.order__input {
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+     width: 690px;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+.order__item {
+    
+    width: 580px;
+height: 50px;
+    display: block;
+    margin: 19px;
+    background: rgb(255, 255, 255);
+      border-radius: 50px;
+      border: none;
+}
+.order__item:nth-child(1) {
+    
+    width: 690px;
+    height: 60px;
+    display: block;
+    margin: 19px;
+    background: rgb(255, 255, 255);
+      border-radius: 50px;
+      border: none;
+}
+
+.order-text {
+    border: none;
+    width: 532px;
+   margin-left:  24px; 
+   margin-top:  12px; 
+   color: rgb(0, 0, 0);
+font-family: Roboto;
+font-size: 24px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: left;
+}
+.order__item:nth-child(1) .order-text {
+    border: none;
+    width: 600px;
+   margin-left:  25px; 
+   margin-top:  12px; 
+   color: rgb(0, 0, 0);
+   font-family: Roboto;
+   font-size: 28px;
+   font-weight: 400;
+   line-height: 33px;
+   letter-spacing: 0%;
+   text-align: left;
+}
+
+.order__button {
+    margin-top: 41px;
+    display: flex;
+ justify-content: center;
+ align-items: center;
+ margin: auto;
+    color: rgb(255, 255, 255);
+font-family: Roboto;
+font-size: 24px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0%;
+border-radius: 10px;
+width: 254px;
+height: 67px;
+background: rgb(142, 50, 198);
+margin-bottom: 37px;
+}
+
+.order__button:hover {
+    margin-top: 41px;
+    display: flex;
+ justify-content: center;
+ align-items: center;
+ margin: auto;
+    color: rgb(255, 255, 255);
+font-family: Roboto;
+font-size: 24px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0%;
+border-radius: 10px;
+width: 257px;
+height: 70px;
+background: rgb(132, 53, 182);
+margin-bottom: 37px;
+}
+
   /* футер */
+
+
+
+  /* скролбар */
 
   ::-webkit-scrollbar {
     width: 15px;
@@ -453,3 +576,8 @@ left: -120px;
   ::-webkit-scrollbar-thumb:hover {
     background: rgb(#30D5C8);
   }
+
+  input:active,input:hover, input:focus {
+    outline: 0;
+    outline-offset: 0;
+}
