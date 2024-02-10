@@ -196,6 +196,28 @@ margin-left: 25px;
 }
 /* деливери */
 
+.delivery-bar-1 {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+      background-color: white;
+       width: 0;
+       height: 346px;
+  margin: 25px;
+  padding: 1px;
+  right: 934.5px;
+}
+.delivery-bar-2 {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+      background-color: white;
+       width: 0;
+       height: 346px;
+  margin: 25px;
+  padding: 1px;
+  left: 964.5px;
+}
 
 
 .delivery__section {background-image: url("./img/sparkling-fireworks.png");
