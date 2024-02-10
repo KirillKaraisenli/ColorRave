@@ -23,12 +23,12 @@
             <img src="./img/nike.png" class="header__logo" alt="nike">
             <nav class="header__nav">
                 <ul class="header__nav-list">
-                    <li class="header__nav-item"><a href="#" class="header__nav-link">Main page</a></li>
-                    <li class="header__nav-item"><a href="#" class="header__nav-link">Benefits</a></li>
-                    <li class="header__nav-item"><a href="#" class="header__nav-link">Advantages</a></li>
-                    <li class="header__nav-item"><a href="#" class="header__nav-link">Reviews</a></li>
-                    <li class="header__nav-item"><a href="#" class="header__nav-link">Contacts</a></li>
-                    <li class="header__nav-item"><a href="#" class="header__nav-link">Order</a></li>
+                    <li class="header__nav-item"><a href="#part-1" class="header__nav-link">Main page</a></li>
+                    <li class="header__nav-item"><a href="#part-1" class="header__nav-link">Benefits</a></li>
+                    <li class="header__nav-item"><a href="#part-2" class="header__nav-link">Advantages</a></li>
+                    <li class="header__nav-item"><a href="#part-3" class="header__nav-link">Reviews</a></li>
+                    <li class="header__nav-item"><a href="#part-4" class="header__nav-link">Contacts</a></li>
+                    <li class="header__nav-item"><a href="#part-5" class="header__nav-link">Order</a></li>
                 </ul>
                 <ul class="header__nav-language">
                     <ul class="header__nav-language-list">
@@ -42,7 +42,7 @@
         <section class="hero">
             <div class="container">
                 <!-- у хиро друге зображення тому що якщо викоритовувати 1 то буде плоха якість зображення( -->
-                <img src="./img/nike-hero.png" class="hero__logo" alt="nike">
+                <img id="part-1" src="./img/nike-hero.png" class="hero__logo" alt="nike">
                 <img src="./img/сr.png" class="hero__cr" alt="cr">
                 <h1 class="hero__title">ColoRawe</h1>
                 <h3 class="hero__subtitle">Your dream Nike</h3>
@@ -53,25 +53,65 @@
                 <button class="hero__button">Buy my Nike</button>
             </div>
         </section>
-        <section class="delivery__section">
+        <section id="part-2"  class="delivery__section">
             <div class="container">
-            <ul class="delivery__list">
-                <li class="delivery__item">
-                    <p class="delivery__text">Premium<br>Quality</p>
-                </li>
+                <ul class="delivery__list">
+                    <li class="delivery__item">
+                        <p class="delivery__text">Premium<br>Quality</p>
+                    </li>
 
-                <li class="delivery__item">
-                    <p class="delivery__text">Indelible<br>paint</p>
-                </li>
-                <li class="delivery__item">
-                    <p class="delivery__text">Fast<br>shipping</p>
-                </li>
-            </ul>
-        </div>
+                    <li class="delivery__item">
+                        <p class="delivery__text">Indelible<br>paint</p>
+                    </li>
+                    <li class="delivery__item">
+                        <p class="delivery__text">Fast<br>shipping</p>
+                    </li>
+                </ul>
+            </div>
         </section>
+        <section class="reviews__section">
+            <img class="reviews__flowers" src="./img/flowers.png" alt="">
+            <div class="container">
+                  
+                <h1  id="part-3" class="reviews__title">Reviews</h1>
+                <ul class="reviews__list">
+                    <li class="reviews__item">
+                        <h2 class="reviews__text">Sneakers are very 
+                            comfortable and well 
+                            painted, nothing has 
+                            worn off in a year.</h2>
+                        <h3 class="reviews__datta">25.11</h3>   
+                        <img class="reviews__avatar" src="./img/john.png" alt="John Teylor">
+                        <h4 class="reviews__user-name">John Teylor</h4>
+                        <p class="reviews__info">With us from 2018</p>
+                     
+                    </li>
+                    <li class="reviews__item">
+                        <h2 class="reviews__text">I'm very happy with this color scheme.
+                            They match all my clothes.</h2>
+                        <h3 class="reviews__datta">05.01</h3>
+                        <img class="reviews__avatar" src="./img/elizabeth.png" alt="Elizabeth Garsia">
+                        <h4 class="reviews__user-name">Elizabeth Garsia</h4>
+                        <p class="reviews__info">With us from 2020</p>
+                        
+                    </li>
+                    <li class="reviews__item">
+                        <h2 class="reviews__text">Just right if you need to go to a party.
+                            I use them actively, the paint is super.</h2>
+                        <h3 class="reviews__datta">18.06</h3>
+                        <img class="reviews__avatar" src="./img/tom.png" alt="Tom Maquare">
+                        <h4 class="reviews__user-name">Tom Maquare</h4>
+                        <p class="reviews__info">With us from 2019</p>
+                        
+                    </li>
+             
+                    </ul> 
+                  
+                 </div>  
+        </section>
+     
     </main>
     <footer>
-        <div class="card-c18"></div>
     </footer>
 
 </body>
