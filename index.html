@@ -13,14 +13,14 @@
     <link
         href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Playfair+Display&family=Roboto:wght@300;400&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./reset.css">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
     <header class="header">
         <div class="container">
-            <img src="./img/nike.png" class="header__logo" alt="nike">
+ <a class="header__logo" href="./img/nike.png"></a>
             <nav class="header__nav">
                 <ul class="header__nav-list">
                     <li class="header__nav-item"><a href="#part-1" class="header__nav-link">Main page</a></li>
@@ -30,12 +30,12 @@
                     <li class="header__nav-item"><a href="#part-3" class="header__nav-link">Contacts</a></li>
                     <li class="header__nav-item"><a href="#part-4" class="header__nav-link">Order</a></li>
                 </ul>
-                <ul class="header__nav-language">
-                    <ul class="header__nav-language-list">
+            </nav>
+            <ul class="header__nav-language-list">
                         <li class="header__nav-language-item"><a href="#" class="header__nav-language-link">Ua</a></li>
                         <li class="header__nav-language-item"><a href="#" class="header__nav-language-link">Eng</a></li>
                     </ul>
-            </nav>
+
         </div>
     </header>
     <main>
@@ -43,13 +43,13 @@
             <div class="container">
                 <!-- у хиро друге зображення тому що якщо викоритовувати 1 то буде плоха якість зображення( -->
                 <img id="part-1" src="./img/nike-hero.png" class="hero__logo" alt="nike">
-                <p class="header-cr">С&R</p>
+                <p class="hero-cr">С&R</p>
                 <h1 class="hero__title">ColoRawe</h1>
-                <h3 class="hero__subtitle">Your dream Nike</h3>
-                <p class="hero__paragraph">On this site you can find custom Nike sneakers of your dreams. </p>
-                <p class="hero__paragraph"> The original company caт`t create such beautiful</p>
-                <p class="hero__paragraph">sneakers as we do.</p>
-                <p class="hero__paragraph">Good luck finding your way in the world of custom sneakers.</p>
+                <h2 class="hero__subtitle">Your dream Nike</h2>
+                <p class="hero__paragraph">On this site you can find custom Nike sneakers of your dreams.<br> 
+                    The original company caт`t create such beautiful<br>
+                    sneakers as we do.<br>
+                    Good luck finding your way in the world of custom sneakers.</p>
                 <button class="hero__button">Buy my Nike</button>
             </div>
         </section>
@@ -58,16 +58,17 @@
                 <ul class="delivery__list">
                     <li class="delivery__item">
                         <p class="delivery__text">Premium<br>Quality</p>
+                        <img src="./img/stars.png" alt="stars" class="delivery__img">
                     </li>
 
                     <li class="delivery__item">
                         <p class="delivery__text">Indelible<br>paint</p>
+                        <img src="./img/paints.png" alt="paints" class="delivery__img">
                     </li>
                     <li class="delivery__item">
                         <p class="delivery__text">Fast<br>shipping</p>
+                        <img src="./img/truck.png" alt="truck" class="delivery__img">
                     </li>
-                    <div class="delivery-bar-1"></div>
-                    <div class="delivery-bar-2"></div>
                 </ul>
             </div>
         </section>
@@ -124,8 +125,8 @@
     </main>
     <footer class="footer">
         <div class="container">
-         <div class="question-x-link">
-              <ul class="question-list">
+            <div class="question-x-link">
+                <ul class="question-list">
                     <li class="questione-item">
                         <p class="questione-p">Have a question?</p>
                     </li>
@@ -147,15 +148,15 @@
             </div>
             <div class="footer-bar"></div>
             <div class="information-logo-footer">
-            <ul class="information-footer">
-                <p class="footer-p">2022 ColoRawe @All rights reserved</p>
-                <p class="footer-country">United States</p>
-            </ul>
-            <ul class="logo-footer">
-                <img src="./img/nike.png" class="footer-logo" alt="nike">
-                <p class="footer-cr">С&R</p>
-            </ul>
-        </div>
+                <ul class="information-footer">
+                    <p class="footer-p">2022 ColoRawe @All rights reserved</p>
+                    <p class="footer-country">United States</p>
+                </ul>
+                <ul class="logo-footer">
+                    <img src="./img/nike.png" class="footer-logo" alt="nike">
+                    <p class="footer-cr">С&R</p>
+                </ul>
+            </div>
         </div>
     </footer>
 

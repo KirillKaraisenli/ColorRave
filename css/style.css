@@ -19,11 +19,10 @@
   
 .header .container {
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
-.header-cr {
+.hero-cr {
     color: rgb(255, 255, 255);
 font-family: PT Serif;
 font-size: 48px;
@@ -36,6 +35,7 @@ padding-left: 25px;
 
 .header__logo {
     height: 60px;
+    width: 100px;
     margin-top: 14px;
 margin-bottom: 16px;
     
@@ -47,8 +47,7 @@ margin-bottom: 16px;
 }
 
 .header__nav-list {
-    margin-top: 30px;
-    margin-bottom: 30px;
+
     display: flex;
     gap: 29px;
     margin-left: 152px;
@@ -61,7 +60,6 @@ margin-bottom: 16px;
 }
 
 .header__nav-link {
-width: 58px;
 color: rgb(199, 199, 199);
 font-family: Roboto;
 font-size: 24px;
@@ -70,16 +68,11 @@ line-height: 28px;
 letter-spacing: 0%;
 }
 
-.header__nav-language {
-    display: flex;
-    gap: 5px;
-}
 
 .header__nav-language-list {
+    padding-left: 73px;
     display: flex;
     gap: 5px;
-
-
 }
 
 .header__nav-language-item {
@@ -105,7 +98,6 @@ font-family: Roboto;
 font-size: 24px;
 font-weight: 400;
 line-height: 28px;
-letter-spacing: 0%;
 text-align: left;
 }
 
@@ -114,14 +106,12 @@ text-align: left;
     font-size: 24px;
     font-weight: 400;
     line-height: 28px;
-    letter-spacing: 0%;
     text-align: left;  
     color: rgb(255, 255, 255);
     font-family: Roboto;
     font-size: 24px;
     font-weight: 400;
     line-height: 28px;
-    letter-spacing: 0%;
     text-align: left;
 }
 
@@ -129,15 +119,11 @@ text-align: left;
 
  /* хиро */
  .hero { 
-    background-image: url("./img/hero.jpeg");
+    background-image: url("../img/hero.jpeg");
     width: 1521,05px;
     background-size: 100%;
     height: 800px;
     display: flex;
-
-    
-
-
 }
 
 .container .hero {
@@ -206,31 +192,9 @@ margin-left: 25px;
 }
 /* деливери */
 
-.delivery-bar-1 {
-    display: flex;
-    justify-content: center;
-    position: absolute;
-      background-color: white;
-       width: 0;
-       height: 346px;
-  margin: 25px;
-  outline: solid 1px white;
-  right: 934.5px;
-}
-.delivery-bar-2 {
-    display: flex;
-    justify-content: center;
-    position: absolute;
-      background-color: white;
-       width: 0;
-       height: 346px;
-  margin: 25px;
-  outline: solid 1px white;
-  left: 964.5px;
-}
 
 
-.delivery__section {background-image: url("./img/sparkling-fireworks.png");
+.delivery__section {background-image: url("../img/sparkling-fireworks.png");
     background-size: 100%;
     height: 606px;
     display: flex;
@@ -240,101 +204,19 @@ margin-left: 25px;
 
 .delivery__list {
     display: flex;
-    justify-content: space-between;
     margin-top:  105px;
     margin-bottom: 105px;
-    outline: 5px solid rgb(251, 0, 255);  
+    border: 5px solid rgb(251, 0, 255);  
     
 
 }
 
-
-
-.delivery__item::before {
-
-    padding-left: 200px;
-    padding-right: 200px;
-    height: 346px;
-    background-size: 240px 240x;
-    
-       
-}
-
-.delivery__item:nth-child(1)::before {
-    content:"";
-    display: block;
-      background-image: url("./img/stars.png");
-      background-repeat: no-repeat;
-      background-position: bottom;
-
-      
-}
-.delivery__item:nth-child(2)::before {
-    position: relative;
-    content:"";
-    display:block;
-      background-image: url("./img/paints.png");
-      background-repeat: no-repeat;
-      background-position: center;
-      top: -35px;
-   
-
-      
-
-}
-.delivery__item:nth-child(3)::before {
-    content:"";
-    display: block;
-      background-image: url("./img/truck.png");
-      background-repeat: no-repeat;
-      background-position: bottom;
-
-}
-
-.delivery__item:nth-child(2) .delivery__text{
-    color: rgb(255, 255, 255);
-    font-family: Playfair Display;
-    font-weight: 400;
-    font-size: 36px;
-    Letter-spacing: 1%;
-    text-align: center; 
-    display: flex;
-    justify-content: center; 
-    margin-top: -70px ;
-    margin-bottom: 35px;
-}
-
-
-.delivery__item:nth-child(1) .delivery__text{ 
-    color: rgb(255, 255, 255);
-    font-family: Playfair Display;
-    font-weight: 400;
-    font-size: 36px;
-    Letter-spacing: 1%;
-    text-align: center; 
-    display: flex;
-    justify-content: center;
-    margin-top: -325px;
-
-}
-
-.delivery__item:nth-child(3) .delivery__text{ 
-    color: rgb(255, 255, 255);
-    font-family: Playfair Display;
-    font-weight: 400;
-    font-size: 36px;
-    Letter-spacing: 1%;
-    text-align: center; 
-    display: flex;
-    justify-content: center;
-    margin-top: -325px;
-}
 
  /* ревайвс */
 
  .reviews__section {
     content: "";
-    background-image: url("./img/sparkling-firework.png");
+    background-image: url("../img/sparkling-firework.png");
     background-size: 100%;
     height:520px ;
     justify-content: center;
@@ -447,7 +329,7 @@ left: -120px;
 
   .order__section {
     content: "";
-    background-image: url("./img/beach.png");
+    background-image: url("../img/beach.png");
     background-size: 100% 609px ;
     display: flex;
     justify-content: center;
