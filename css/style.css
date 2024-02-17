@@ -199,18 +199,47 @@ margin-left: 25px;
     height: 606px;
     display: flex;
     justify-content: center;
+    padding:  105px 0;
 }
     
 
 .delivery__list {
     display: flex;
-    margin-top:  105px;
-    margin-bottom: 105px;
-    border: 5px solid rgb(251, 0, 255);  
-    
-
+    border: 5px solid rgb(251, 0, 255); 
+    padding: 25px 0;
 }
 
+.delivery__item:nth-child(odd){
+
+    padding: 0 50px;
+    
+}
+.delivery__item:nth-child(2){
+    display: flex;
+flex-direction: column-reverse;
+    padding: 0 95px;
+    
+}
+
+.delivery__item:not(:last-child){
+    border-right: solid rgb(255, 255, 255);
+    
+}
+
+
+.delivery__img {
+    width: 240px;
+}
+
+.delivery__text {
+    color: rgb(255, 255, 255);
+font-family: Playfair Display;
+font-size: 36px;
+font-weight: 400;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+}
 
  /* ревайвс */
 
@@ -223,7 +252,7 @@ margin-left: 25px;
 }
 
 .reviews__title {
-    padding-top: 25px;
+    padding: 25px 0;
     color: rgb(255, 255, 255);
     font-family: Playfair Display;
     font-size: 48px;
@@ -235,16 +264,16 @@ margin-left: 25px;
 }
 .reviews__list {
     display: flex;
-    justify-content: space-around;
-    padding-top: 24px;
-    margin-bottom: 114px;
+    justify-content: center;
 
 }
 
-.reviews__item {    
+.reviews__item {
+    margin: 0 93px;
     border-radius: 17px;
     width: 255px;
     height: 292px;
+    flex-shrink: 0;
 }
 .reviews__item:nth-child(1) {
     content: "";
@@ -290,10 +319,10 @@ line-height: 16px;
 letter-spacing: 0%;
 text-align: left;
 }
-.reviews__avatar {    position: absolute;
 
+.reviews__avatar {
     padding-left: 13px;
-    padding-top: 47px;}
+margin-top: 47px;}
 
 .reviews__user-name {
     color: rgb(255, 255, 255);
@@ -302,9 +331,6 @@ text-align: left;
     font-weight: 400;
     line-height: 16px;
     letter-spacing: 0%;
-    text-align: left;
-    padding-top: 47px;;
-    padding-left: 49px;
 }
 .reviews__info {
     color: rgb(216, 216, 216);
@@ -312,17 +338,11 @@ font-family: Roboto;
 font-size: 12px;
 font-weight: 400;
 line-height: 14px;
-letter-spacing: 0%;
-text-align: left;
-padding-left: 49px;
 }
 
 
 .reviews__flowers {
-    position: absolute;
-    width: 340px;
-padding-top: 140px;
-left: -120px;
+
 }
 
   /* ордер */
