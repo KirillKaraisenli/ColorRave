@@ -447,8 +447,6 @@ margin-bottom: 37px;
 .order__button:hover {
     margin-top: 41px;
     display: flex;
- justify-content: center;
- align-items: center;
  margin: auto;
     color: rgb(255, 255, 255);
 font-family: Roboto;
@@ -499,7 +497,7 @@ margin-bottom: 37px;
     line-height: 28px;
     letter-spacing: 0%;
     text-decoration-line: underline;
-    text-align: end;
+    text-align: right;
 }
 
 .footer-p {
@@ -509,7 +507,6 @@ margin-bottom: 37px;
     font-weight: 400;
     line-height: 21px;
     letter-spacing: 0%;
-    text-align: left;
 }
 .footer-country {
     color: rgb(255, 255, 255);
