@@ -347,6 +347,8 @@ line-height: 14px;
     width: 340px;
 height: 380px;
 flex-shrink: 0;
+background: url("../img/flowers.png"), rgba(211, 211, 211, 0) -0.985px 0px / 119.753% 110.554% no-repeat;
+background-position: bottom;
 
 
 }
