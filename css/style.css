@@ -59,7 +59,7 @@ letter-spacing: 0%;
 
 
 .header__nav-language-list {
-    padding-left: 73px;
+    margin-left: 73px;
     display: flex;
     gap: 5px;
 }
@@ -83,19 +83,9 @@ letter-spacing: 0%;
 .header__nav-link:focus,
 .header__nav-link:hover{
     color: rgb(255, 255, 255);
-font-family: Roboto;
-font-size: 24px;
-font-weight: 400;
-line-height: 28px;
-text-align: left;
 }
 
-.header__nav-language-item:last-child .header__nav-language-link{      color: rgb(255, 255, 255);
-    font-family: Roboto;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 28px;
-    text-align: left;  
+.header__nav-language-item:last-child .header__nav-language-link{      
     color: rgb(255, 255, 255);
     font-family: Roboto;
     font-size: 24px;
@@ -109,18 +99,16 @@ text-align: left;
  /* хиро */
 
  .hero { 
-    background-image: url("../img/hero.jpeg");
-    width: 1521,05px;
-    background-size: 100%;
-    height: 800px;
-    display: flex;
+    background-image: url("../img/hero.jpeg"); 
+    background-position: center;
+ background-size: cover;
+
+    height: 858px;
 }
 
-.container .hero {
-}
 
 .hero__logo {
-    margin-top: 91px;
+    padding-top: 91px;
     width: 160px;
     height: auto;
    
@@ -348,9 +336,6 @@ line-height: 14px;
 height: 380px;
 flex-shrink: 0;
 background: url("../img/flowers.png"), rgba(211, 211, 211, 0) -0.985px 0px / 119.753% 110.554% no-repeat;
-background-position: bottom;
-
-
 }
 
   /* ордер */
@@ -490,12 +475,12 @@ margin-bottom: 37px;
     letter-spacing: 0%;
     text-align: left;
 }
-.link-list {
+.link-list {    text-align: end;
 
 }
 .link-item {
     display: flex;
-
+    text-align: end;
 
 }
 .footer-link {
@@ -506,7 +491,7 @@ margin-bottom: 37px;
     line-height: 28px;
     letter-spacing: 0%;
     text-decoration-line: underline;
-    text-align: right;
+    text-align: end ;
 }
 
 .footer-p {
