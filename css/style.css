@@ -192,7 +192,7 @@ html {
 .reviews__section {
     
   background-image:url("../img/flowers.png"), url("../img/sparkling-firework.png");
-  background-position: bottom left, center;
+  background-position: bottom left -100px, center;
   background-size: auto, cover;
   background-repeat: no-repeat;
   padding-top: 25px ;
