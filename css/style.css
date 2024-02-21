@@ -24,8 +24,6 @@ html {
 }
 
 .header__nav {
-  display: flex;
-  gap: 29px;
 }
 
 .header__nav-list {
@@ -146,16 +144,6 @@ html {
   background: rgb(142, 50, 198);
 }
 
-.hero__cr {
-  color: rgb(255, 255, 255);
-  font-family: PT Serif;
-  font-size: 48px;
-  font-weight: 400;
-  line-height: 64px;
-
-  text-align: left;
-  margin-left: 25px;
-}
 /* деливери */
 
 .delivery__section {
@@ -163,8 +151,6 @@ html {
   background-position: center;
   background-size: cover;
   height: 606px;
-  display: flex;
-  justify-content: center;
   padding: 105px 0;
 }
 
@@ -204,14 +190,17 @@ html {
 /* ревайвс */
 
 .reviews__section {
-  background-image: url("../img/sparkling-firework.png");
-  background-position: center;
-  background-size: cover;
-  height: 520px;
+    
+  background-image:url("../img/flowers.png"), url("../img/sparkling-firework.png");
+  background-position: bottom left, center;
+  background-size: auto, cover;
+  background-repeat: no-repeat;
+  padding-top: 25px ;
+  padding-bottom: 115px;
 }
 
 .reviews__title {
-  padding: 25px 0;
+  margin-bottom: 25px;
   color: rgb(255, 255, 255);
   font-family: Playfair Display;
   font-size: 48px;
@@ -223,18 +212,15 @@ html {
 .reviews__list {
   display: flex;
   justify-content: center;
+  gap: 93px;
 }
 
 .reviews__item {
   border-radius: 17px;
-  width: 255px;
-  height: 292px;
-  flex-shrink: 0;
+  /* width: 255px; */
+  padding: 49px 13px 29px;
 }
 .reviews__item:nth-child(1) {
-  margin: 0 93px;
-  content: "";
-  display: block;
   box-shadow: 0px 14px 0px -5px rgb(123, 84, 179),
     0px 30px 0px -13px rgb(83, 57, 120);
   background: linear-gradient(
@@ -247,8 +233,6 @@ html {
 }
 
 .reviews__item:nth-child(2) {
-  content: "";
-  display: block;
   box-shadow: 0px 14px 0px -5px rgb(145, 89, 177),
     0px 30px 0px -13px rgb(97, 51, 124);
   background: linear-gradient(
@@ -260,9 +244,6 @@ html {
   );
 }
 .reviews__item:nth-child(3) {
-  margin: 0 93px;
-  content: "";
-  display: block;
   box-shadow: 0px 14px 0px -5px rgb(185, 90, 76),
     0px 30px 0px -13px rgb(115, 47, 38);
   background: linear-gradient(
@@ -275,18 +256,15 @@ html {
 }
 
 .reviews__text {
-  padding-top: 49px;
-  padding-left: 14px;
+    width: 228px;
   color: rgb(255, 255, 255);
   font-family: Roboto;
   font-size: 24px;
   font-weight: 400;
   line-height: 28px;
-
   text-align: left;
 }
 .reviews__datta {
-  padding-left: 13px;
   color: rgb(216, 216, 216);
   font-family: Roboto;
   font-size: 14px;
@@ -294,11 +272,16 @@ html {
   line-height: 16px;
 
   text-align: left;
+  margin-bottom: 47px;
+}
+
+.reviews__avatar__content {
+    display: flex;
+    gap: 5px;
 }
 
 .reviews__avatar {
   margin-left: 13px;
-  padding-top: 47px;
 }
 
 .reviews__user-name {
@@ -317,12 +300,14 @@ html {
 }
 
 .reviews__flowers {
-  background: url("../img/flowers.png"),
+    background: url("../img/flowers.png"),
     rgba(211, 211, 211, 0) -0.985px 0px / 119.753% 110.554% no-repeat;
   width: 340px;
   height: 380px;
   flex-shrink: 0;
 }
+
+
 
 /* ордер */
 
