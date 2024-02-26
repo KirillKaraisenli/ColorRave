@@ -299,16 +299,6 @@ html {
   line-height: 14px;
 }
 
-.reviews__flowers {
-    background: url("../img/flowers.png"),
-    rgba(211, 211, 211, 0) -0.985px 0px / 119.753% 110.554% no-repeat;
-  width: 340px;
-  height: 380px;
-  flex-shrink: 0;
-}
-
-
-
 /* ордер */
 
 .order__section {
@@ -327,60 +317,52 @@ text-align: center;
   font-size: 48px;
   font-weight: 400;
   line-height: 64px;
+  margin-bottom: 33px;
 }
 
-.order__input {
+.order__form {
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  width: 690px;
-  margin-left: auto;
-  margin-right: auto;
+  flex-direction: column;
+  gap: 19px;
+  align-items:center ;
 }
 
-.order__item {
-  width: 580px;
-  height: 50px;
-  display: block;
-  margin-bottom: 19px;
-  background: rgb(255, 255, 255);
-  border-radius: 50px;
-}
-.order__item:nth-child(1) {
-  width: 690px;
-  height: 60px;
-  display: block;
-  margin-top: 33px;
-  background: rgb(255, 255, 255);
-  border-radius: 50px;
-}
-
-.order-text {
-  border: none;
-  width: 532px;
-  margin-left: 24px;
-  margin-top: 12px;
+.order__lable {
   color: rgb(0, 0, 0);
   font-family: Roboto;
   font-size: 24px;
   font-weight: 400;
   line-height: 28px;
 
-  text-align: left;
 }
-.order__item:nth-child(1) .order-text {
+
+.order-text {
+  width: 580px;
+background: rgb(255, 255, 255);
+border-radius: 50px;
+padding: 13px 25px;
+}
+
+.order__emeil-text {
+
+  width: 690px;
+  background: rgb(255, 255, 255);
+  border-radius: 50px;
+  padding: 13px 25px;
+}
+
+
+/* .order__emeil-lable .order-text {
   border: none;
-  width: 600px;
-  margin-left: 25px;
-  margin-top: 12px;
+  padding-left: 25px;
+  padding-top: 12px;
   color: rgb(0, 0, 0);
   font-family: Roboto;
   font-size: 28px;
   font-weight: 400;
   line-height: 33px;
-
   text-align: left;
-}
+} */
 
 .order__button {
   display: flex;
